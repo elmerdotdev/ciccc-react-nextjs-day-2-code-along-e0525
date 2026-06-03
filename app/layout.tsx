@@ -20,11 +20,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  // anotherPage,
+  anotherPage,
   modal,
 }: Readonly<{
   children: React.ReactNode;
-  // anotherPage: React.ReactNode;
+  anotherPage: React.ReactNode;
   modal: React.ReactNode;
 }>) {
   return (
@@ -35,7 +35,7 @@ export default function RootLayout({
         <Header />
         {children}
         <hr />
-        {/* {anotherPage} */}
+        {anotherPage}
         <div>{modal}</div>
       </body>
     </html>

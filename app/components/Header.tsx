@@ -24,6 +24,9 @@ const Header = () => {
           <li>
             <Link href="/login">Log In</Link>
           </li>
+          <li>
+            <Link href="/settings">Settings</Link>
+          </li>
         </menu>
       </nav>
     </header>
